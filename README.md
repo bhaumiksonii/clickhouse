@@ -68,4 +68,6 @@ database	mysql database name	db1
 user	username to connect to mysql	clickhouse_user
 password	password to connect to mysql	ClickHouse_123
 ```
-### The MaterializedMySQL database engine allows you to define a database in ClickHouse that contains all the existing tables in a MySQL database, along with all the data in those tables. On the MySQL side, DDL and DML operations can continue to made and ClickHouse detects the changes and acts as a replica to MySQL database.
+### The MaterializedMySQL database engine allows you to define a database in ClickHouse that contains all the existing tables in a MySQL database, along with all the data in those tables. On the MySQL side, DDL and DML operations can continue to made and ClickHouse detects the changes and acts as a replica to MySQL database.\
+
+Execution Time MySQL vs ClickHouse: https://docs.google.com/spreadsheets/d/1P8K-hFoABDzUiuJusHbwzv9sEZ3UzZ8DTcDH1A6ftsM/edit#gid=0

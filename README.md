@@ -1,4 +1,5 @@
 #Replicate a MySQL Database in ClickHouse
+
 ##What Is ClickHouse?
 
 ClickHouse is a column-oriented SQL database management system (DBMS) for online analytical processing (OLAP). It is available as both an open-source software and a cloud offering.

@@ -10,6 +10,7 @@ In a column-oriented DBMS, data is stored in columns, with values from the same 
 
 ### Configure the MySQL database to allow for replication and native authentication. ClickHouse only works with native password authentication. Add the following entries to /etc/my.cnf:
 ```
+[mysqld]
 default-authentication-plugin = mysql_native_password
 gtid-mode = ON
 enforce-gtid-consistency = ON
